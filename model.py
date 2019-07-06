@@ -129,7 +129,7 @@ def sample(preds, temperature=1.0):
 # %%
 
 
-sentence = "左世纪晚上拉屎不冲厕所，还不坚守"
+sentence = "我不知道我从哪里来，要到哪里去"
 print(sentence, end="")
 sentence = articletonum(sentence)[-window:]
 for i in range(3000):
